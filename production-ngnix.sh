@@ -6,15 +6,15 @@ sudo apt install net-tools  -y
 
 sudo cat /etc/system-release
 
-sudo apt install -y httpd mariadb-server
+#sudo apt install -y httpd mariadb-server
 
-sudo systemctl start httpd
+#sudo systemctl start httpd
 
-sudo systemctl enable httpd
+#sudo systemctl enable httpd
 
-sudo systemctl is-enabled httpd
+#sudo systemctl is-enabled httpd
 
-echo "Install Java JDK 8"
+echo "Install Java JDK 11"
 sudo apt remove -y java
 sudo amazon-linux-extras install java-openjdk11
 
